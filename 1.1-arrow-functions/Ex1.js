@@ -1,3 +1,4 @@
+console.log('1.1: arrow')
 const add = (a, b) => a + b;
 
 console.log(add(2, 3)); 
