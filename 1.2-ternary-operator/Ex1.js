@@ -1,5 +1,6 @@
 console.log('Ternary Operator')
 console.log('level 1')
+console.log('1.2.1 : ternario básico')
 
 const puedeConducir = (edad) => edad >= 18 ? 'Puedes Conducir' : 'No Puedes Conducir';
 
