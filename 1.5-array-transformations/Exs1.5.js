@@ -7,3 +7,9 @@ console.log('Array original', numeros)
 const alCuadrado = numeros.map(num => num * num )
 
 console.log('Array transformado con map:', alCuadrado)
+
+console.log('1.5.2: Filter')
+
+const pares = numeros.filter(num => num % 2 === 0)
+
+console.log('Array de pares (filter)', pares)
