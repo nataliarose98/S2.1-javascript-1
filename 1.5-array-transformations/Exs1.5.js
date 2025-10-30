@@ -18,3 +18,11 @@ console.log('1.5.3: Find')
 
 const mayorADiez = numeros.find(num => num > 10)
 console.log('Primer número mayor a 10 (find):', mayorADiez)
+
+console.log('1.5.4: Reduce')
+
+const sumaTotal = numeros.reduce((acumulador, actual) => {
+    return acumulador + actual;
+}, 0); 
+
+console.log('Suma Total:', sumaTotal);
