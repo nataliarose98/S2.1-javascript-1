@@ -13,3 +13,12 @@ const miPromesa = new Promise((resolve, reject) => {
         
     }, 2000);
 })
+
+console.log('1.7.2:Using a Promise')
+
+miPromesa.then((valor) => {
+
+    console.log('.then() ejecutado. El resultado es:', valor);
+})
+
+console.log('   (Esperando 2 segundos a que la promesa se resuelva...)');
